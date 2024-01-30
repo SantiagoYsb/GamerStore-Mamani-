@@ -110,11 +110,11 @@ margin: 20px;
   header {padding: 0 0 0 0px; position: relative; display: block;} 
   header div nav ul {flex-direction: column; justify-content: center; display: block;}
   .header-menu {display: block;}
-  .logo {pa}
+  
    
   .main .column {display: grid;
     grid-template-columns: repeat(1, 1fr );
-    width: 100%;}
-    main {padding: 200px 0 0 0;}
-
+    width: 100%;
+  }
+  main {padding: 220px 0 0 0;}
 }
