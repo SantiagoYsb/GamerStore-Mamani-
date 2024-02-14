@@ -1,22 +1,22 @@
 /*estilos generales*/
-*{
+  *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: none;
-  }
+  } */
 
 img {max-width: 100%;}
 
 /*HEADER*/
-header {max-width: 1920px;min-width: 1220;}
+/* header {max-width: 1920px;min-width: 1220;}
 header {position: fixed;top: 0;left: 0;width: 100%;height: 60px;background-color: #fff;box-shadow: 0 4px 25px -22px black;z-index:2;} 
 .header-menu{max-width: 1200px;margin: auto;display: flex;justify-content: space-between;}
 .logo {height: 80px;display: flex;justify-content: center;align-items: center;}
 .logo b {color: #46a2fd;}
-header a{text-decoration: none;}
-
+header a{text-decoration: none;} */
+/*
 .nuevo-menu {height: 100%;}
 .nuevo-menu nav {height: 100%;}
 .nuevo-menu nav ul {height:100%;display: flex;justify-content: center;align-items: center;list-style: none;}
@@ -40,24 +40,10 @@ left: 0;}
 transition: color 300ms ;}
 .nuevo-menu .menu-color {color: #46a2fd;}
 
-#icon-menu {width: 50px ;
-height: 50px;
-position: absolute;
-right: 20px;
-top: 50px;
-font-size: 25px;
-background-color: rgb(232, 228, 228);
-border-radius: 100%;
-color: black;
-display: none;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-}
 
 /*MAIN*/
 
-main {max-width: 1920px;
+/*main {max-width: 1920px;
 min-width: 1220;}
 
 .main .catalogo {height: 100%;
@@ -83,7 +69,8 @@ height: auto;}
 .column img {width: 100%;
 height: 300px;
 object-fit: cover;}
-main section div p {font-size: 30px;}
+main section div p {font-size: 30px;} 
+*/
 
 footer div {display: flex;
 justify-content: center;
