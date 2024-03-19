@@ -8,48 +8,29 @@ div{
         position: relative;
         top: 80px;width: 100%;
         object-fit: cover;
+        
+
+        .portada {
+            .d-block-w-100{ width: 1920px;}
+        }
 
         .grid-galeria{
             h3{color: rgb(0, 0, 0);
                 display: flex;
                 justify-content: center;
-                align-items: center;}
+                align-items: center;
+                background-color: orange;}
             .column{display: grid;
                 grid-template-columns: repeat(4, 1fr );
-                padding: 40px 0 0 0;
+                padding: 0px 0 0 0;
                 height: auto; border-radius: 10px;gap: 20px;
                 .prod{
-                    img{width: 100%;
+                    .img-index{width: 100%;
                         height: 300px;
-                        object-fit: cover;}
+                        object-fit: cover;
+                        border: black;
+                    box-shadow: 20px;}
                     .info-prod1{
-                        h2{}
-                        p{}
-                    }
-                }
-                .prod{
-                    img{width: 100%;
-                        height: 300px;
-                        object-fit: cover;}
-                    .info-prod2{
-                        h2{}
-                        p{font-size: 30px;}
-                    }
-                }
-                .prod{
-                    img{width: 100%;
-                        height: 300px;
-                        object-fit: cover;}
-                    .info-prod3{
-                        h2{}
-                        p{font-size: 30px;}
-                    }
-                }
-                .prod{
-                    img{width: 100%;
-                        height: 300px;
-                        object-fit: cover;}
-                    .info-prod4{
                         h2{}
                         p{font-size: 30px;}
                     }
@@ -58,3 +39,19 @@ div{
         }
     }
 }
+
+
+
+
+
+/*Main-componentes*/
+
+
+.column-prod{display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    padding: 70px 0 0 0;
+    height: auto; border-radius: 10px;gap: 20px;
+    object-fit: cover;
+    }
+
+.img-productos {height: 400px; justify-content: center; display: flex; }
