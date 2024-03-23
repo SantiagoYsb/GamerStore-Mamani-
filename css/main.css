@@ -135,6 +135,54 @@ div .main .grid-galeria .column .prod .info-prod1 p {
   display: flex;
 }
 
+.column-prod {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 0 0 0;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  object-fit: cover;
+}
+
+.img-productos {
+  height: 400px;
+  justify-content: center;
+  display: flex;
+}
+
+.column-prod {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 0 0 0;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  object-fit: cover;
+}
+
+.img-productos {
+  height: 400px;
+  justify-content: center;
+  display: flex;
+}
+
+.sponsors {
+  height: 100%;
+  width: 100%;
+}
+
+.main-global {
+  max-width: 1920px;
+  min-width: 1220;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  object-fit: cover;
+}
+
 footer div {
   display: flex;
   justify-content: center;
@@ -153,7 +201,7 @@ img {
 
 @media screen and (max-width: 1220px) {
   header {
-    padding: 0 30px;
+    padding: 0 0px;
   }
   footer {
     padding: 0;
@@ -179,6 +227,11 @@ img {
     width: 100%;
   }
 }
+@media screen and (max-width: 880px) {
+  header div nav ul {
+    padding: 0px 0px 0px 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   header {
     padding: 0 0 0 0px;
@@ -198,7 +251,7 @@ img {
   }
   .column-prod {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .contenedor-all main {
     padding: 230px 0 0 0;

@@ -1,7 +1,7 @@
 
 
 @media screen and (max-width: 1220px){
-     header{padding: 0 30px;}
+     header{padding: 0 0px;}
     footer{padding: 0; 
         margin: 0;}
      .contenedor-all{
@@ -33,6 +33,21 @@
     }
 }
 
+
+
+@media screen and (max-width: 880px){
+    header{
+        div{
+            nav{
+                ul{
+                    padding: 0px 0px 0px 0px;
+            }
+        }
+    }
+}
+}
+
+
 @media screen and (max-width: 768px){
     header{padding: 0 0 0 0px; position: relative; display: block; 
         .header-menu{
@@ -47,7 +62,7 @@
         }
     }
     .main-global{padding: 330px 0 0 0; }
-    .column-prod {display: grid; grid-template-columns: repeat(1, 1fr);}
+    .column-prod {display: grid; grid-template-columns: repeat(2, 1fr);}
     .contenedor-all{
         main{padding: 230px 0 0 0 ;           
             .portada{

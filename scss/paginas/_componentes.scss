@@ -1,0 +1,10 @@
+
+.column-prod{display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    padding: 70px 0 0 0;
+    height: auto; border-radius: 10px;gap: 20px;
+    object-fit: cover;
+
+    }
+
+.img-productos {height: 400px; justify-content: center; display: flex; }
