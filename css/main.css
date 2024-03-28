@@ -232,7 +232,7 @@ img {
     padding: 0px 0px 0px 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 816px) {
   header {
     padding: 0 0 0 0px;
     position: relative;
@@ -251,7 +251,7 @@ img {
   }
   .column-prod {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .contenedor-all main {
     padding: 230px 0 0 0;

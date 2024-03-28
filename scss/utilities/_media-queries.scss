@@ -48,7 +48,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 816px){
     header{padding: 0 0 0 0px; position: relative; display: block; 
         .header-menu{
             display: block;
@@ -62,7 +62,7 @@
         }
     }
     .main-global{padding: 330px 0 0 0; }
-    .column-prod {display: grid; grid-template-columns: repeat(2, 1fr);}
+    .column-prod {display: grid; grid-template-columns: repeat(1, 1fr);  }
     .contenedor-all{
         main{padding: 230px 0 0 0 ;           
             .portada{
@@ -79,6 +79,7 @@
                     grid-template-columns: repeat(1, 1fr );
                     width: 600px;
                     object-fit: cover;
+                    
                     }
             }
         }
